@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=0.7"> 
+  <title>Sell Your eBook</title> 
+  <link rel="stylesheet" href="style.css"> 
+ <style type="text/css" id="dcoder_stylesheet">* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+h1 {
+  color:red;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.price {
+  color: orange;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.price1 {
+  font-size: 1.5em;
+  color: green;
+  margin: 0 0 0.5em;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding:6px;
+}
+
+ul li{padding:5px;
+margin:6px;
+font-size:1.5rem;}
+
+#get-now-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+#get-now-btn {
+  background-color: #0069d9;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.close-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  display: none;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#ss{margin-top:20px;
+font-color:red;}
+
+.dis{margin:6px;
+padding:5px;}</style></head> 
+ <body> 
+  <header> 
+   <img src="bodgm.png" alt="eBook Title"> 
+  </header> 
+  <main> 
+   <h1>Free Digital marketing basics</h1> 
+   <p class="price">$<del>100</del> </p> 
+   <p class="price1">$0.00</p> <button id="get-now-btn">Get Now</button> 
+   <div id="popup" class="popup"> 
+    <div class="popup-content"> 
+     <h2>Thanks for clicking!</h2> 
+     <p>Please fill out the form below to get your free trial.</p> 
+     <form id="fm" name="submit-to-google-sheet"> <label for="name"></label> 
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required> 
+      <br> <label for="email"></label> 
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required> 
+      <br> <button id="submit-btn" onclick="rd()" type="submit">Submit</button> 
+      <div id="loader" class="loader"></div> 
+     </form> 
+     <br> <span id="ss"></span> 
+     <br> <button class="close-btn" id="close-btn">Close</button> 
+    </div> 
+   </div> 
+  </main> 
+  <div class="dis"> 
+   <p>The Basics of Digital Marketing ebook is a comprehensive guide for beginners who are looking to learn about the various aspects of digital marketing. From understanding the basics of SEO to creating effective social media strategies, this ebook covers everything you need to know to get started with digital marketing. With digital marketing becoming an essential component of every business's marketing strategy, it's important to understand the fundamentals of digital marketing. This ebook is designed to provide a clear and concise understanding of the key concepts of digital marketing, along with practical tips and advice to help you implement them in your business. </p> 
+   <h1>In this ebook, you will learn:</h1> 
+   <ul> 
+    <li>The basics of search engine optimization (SEO)</li> 
+    <li>How to create effective social media strategies</li> 
+    <li>The importance of content marketing</li> 
+    <li>How to develop a successful email marketing campaign</li> 
+    <li>The role of analytics in digital marketing</li> 
+   </ul> 
+   <p>And much more! Whether you're a small business owner looking to improve your online presence or a marketing professional looking to expand your skill set, the Basics of Digital Marketing ebook is a must-read. Are you tired of feeling overwhelmed by the ever-changing world of digital marketing? Are you struggling to keep up with the latest trends and techniques? The Basics of Digital Marketing ebook is here to help. Our comprehensive guide covers everything you need to know to get started with digital marketing, from SEO to social media strategies to email marketing campaigns. With practical tips and advice, you'll be able to implement these strategies in your business and see real results. Don't let your competition get ahead of you - Get the Basics of Digital Marketing ebook today and take your marketing to the next level. </p> 
+   <h1>For free of cost.</h1> 
+  </div> 
+  <footer> 
+    <hr>
+   <p>© 2023 📚Bookyfy.  Free ebook for learn digital marketing basics</p> 
+  </footer> 
+ 
+<script type="text/javascript" id="dcoder_script">const getNowBtn = document.getElementById("get-now-btn");
+const popup = document.getElementById("popup");
+const closeBtn = document.getElementById("close-btn");
+
+getNowBtn.addEventListener("click", function() {
+  popup.style.display = "block";
+});
+
+closeBtn.addEventListener("click", function() {
+  popup.style.display = "none";
+});
+
+
+
+//submitting form
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycby9Bu3MpOLFWCZX0M6Cvkwcu-0-sQ058-0Z2NKjBq4nj4W103rrwfHjhoQKW6Y9agWz/exec'
+  const form = document.forms['submit-to-google-sheet']
+const sus = document.getElementById('ss');
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+         sus.innerHTML="";
+  setTimeout(function()
+  {
+    sus.innerHTML="";
+  },3000)
+  form.reset();
+ 
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+  
+  form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  // code to handle form submission
+  window.location.href = 'freeebook.html'; // replace with your own URL
+});</script></body></html>
